@@ -29,7 +29,7 @@ To run this project locally -
 Clone the project
 
 ```bash
-  git clone https://github.com/rabbiincode/movies-app
+  git clone https://github.com/rabbiincode/hanko_web-app
 ```
 
 Go to the project directory
