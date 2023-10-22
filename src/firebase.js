@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref } from 'firebase/database';
-const userId = 'code'
+const userId = 'user'
 
 const firebaseConfig = {
   apiKey: "AIzaSyD9HaVKmBpIHvcUvzhBDIWXxH1UxpnWUzw",
@@ -17,6 +17,6 @@ const app = initializeApp(firebaseConfig);
 
 // Initialize Database
 const database = getDatabase(app)
-const userData = ref(database, `users/${userId}`)
-const userRef = ref(database, `users/${userId}/moviesId`)
-export {database, userData, userId, userRef}
+const userRef = ref(database, `users/${userId}`)
+//const userRef = ref(database, `users/${userId}/moviesId`)
+export {database, userId, userRef}
