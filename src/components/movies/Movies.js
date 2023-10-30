@@ -31,8 +31,8 @@ const Movies = ({darkMode}) => {
           })
         }
         const movieData = response.data.results
-        //const moviesWithPoster = movieData?.filter(movie => movie?.poster_path)
-        setMovies(movieData)
+        const moviesWithPoster = movieData?.filter(movie => movie?.poster_path)
+        setMovies(moviesWithPoster)
       } catch (err){
         setError('Could not fetch movies...try again')
       }
