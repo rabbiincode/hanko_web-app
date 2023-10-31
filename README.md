@@ -10,6 +10,7 @@ A Movie Discovery Web Application that allows users to search for movies, view d
 - Watch Trailers
 - Save Favorite Movies
 - Search Movies
+- Toggle Light and Dark Mode
 
 
 ## Tech Stack
@@ -17,6 +18,10 @@ A Movie Discovery Web Application that allows users to search for movies, view d
 **Client:** React.JS
 
 **API:** TMDb API
+
+**Database:** Supabase
+
+**Authentication:** Hanko Auth
 
 
 ## Live Project Link
